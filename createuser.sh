@@ -1,5 +1,5 @@
 #!/bin/bash
-#Chinemerem David Madubuko 1222911
+#Chinemerem David Madubuko
 
 
 #USAGE GUIDE 
