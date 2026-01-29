@@ -226,8 +226,7 @@ createuser(){
 		status=$?
 				
 	fi
-	
-	#ERROR OUTPUT - 1 higher than the one in step 9
+
 	if [ $status -ne 0 ]; then
 		echo "Command failed"
 		echo "Error: $error"
@@ -260,7 +259,7 @@ passexpiry() {
 	fi
 
 
-	#ERROR OUTPUT - 1 higher than the one in step 12
+	
 	if [ $status -ne 0 ]; then
 		echo "Error: $error"
 		exit 19
@@ -303,7 +302,7 @@ if [ -n "$PASS" ] || [ $RAND -ne 0 ]; then
 		
 	fi
 	
-	#ERROR OUTPUT - 1 higher than the one in step 13c
+	
 	if [ $status -ne 0 ]; then
 		echo "Error: $error"
 		exit 20
